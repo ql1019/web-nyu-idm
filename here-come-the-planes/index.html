@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Martin's Site</title>
+    <style>
+    /* CSS goes here */
+
+    body {
+      background-color: LightPink;
+      color: SteelBlue;
+      text-align: center;
+      font-size: 20px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+
+    }
+    #grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, LightPink , red); /* Standard syntax (must be last) */
+}
+#grad2 {
+height: 200px;
+background-color: red; /* For browsers that do not support gradients */
+background-image: linear-gradient(to right, red , LightPink); /* Standard syntax (must be last) */
+}
+    a {
+      border: 1px solid powderblue;
+  margin: 20px;
+        color: Turquoise;
+        textshadow: 5px 7px limegreen;
+        font-size: 3em;
+    }
+    h2{
+      color: Beige;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+    }
+    h3{
+      color: AliceBlue;
+
+    }
+  /* CSS STOPS here */
+  a:hover {
+    color: SeaShell;
+    font-size: 5em;
+  /  visibility: hidden;/
+  }
+h1:hover {
+  transform: rotate(20deg);
+  font-family: "Lucida Console", Monaco, monospace;
+}
+h2:hover {
+  transform: rotate(340deg);
+  font-family: "Lucida Console", Monaco, monospace;
+}
+p:hover {
+  font-family: Impact, Charcoal, sans-serif;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+    </style>
+  </head>
+<!-- HTML goes here! -->
+
+  <body>
+    <marquee direction = "right"><div class="circle"></div></marquee>
+    <marquee direction = "left"><div class="circle"></div></marquee>
+
+    <div id="grad2"></div>
+    <marquee direction = "right"><h1>the hand that takes</h1></marquee>
+    <h2>this is the hand</h2>
+
+
+    <h3>the hand that <a href="https://ksm492.github.io/web-nyu-idm/here-come-the-planes">takes</a>
+    </h3>
+    <img src ="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/11/931/524/NYU.jpg?ve=1&tl=1">
+    <img src ="https://1.bp.blogspot.com/-9m26VwwYpo8/WzCTLMlesyI/AAAAAAAAQ68/t3IQc_Na-_oSaFGcb3G8sOEQHxwSM010QCLcBGAs/s1600/title.gif">
+    <div id="grad1"></div>
+  </body>
+</html>
+<!-- HTML STOPS here! -->
