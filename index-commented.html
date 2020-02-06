@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Martin's Site</title>
+    <!-- shows the title and the name of the website -->
+    <style>
+    /* CSS goes here */
+
+    body {
+      /* This tells the user this is the body part, which means that the basic set ups are in here */
+      background-color: LightPink;
+      /* The background color of the web, for this web the background color is light pink */
+      color: SteelBlue;
+      /* the basic color of the text is SteelBlue to start out with. */
+      text-align: center;
+      /* all the text are centered on line after another */
+      font-size: 20px;
+      /* the size of the font is 20px to start out with, it may varies later */
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      /* I added a special font called comic sans ms to the text, it is the online font family. */
+    }
+    #grad1 {
+      /* added a gradient called grad1 */
+  height: 200px;
+  /* the height of the gradient is 200px tall */
+  background-color: red; /* For browsers that do not support gradients */
+  /* the background color of the gradient is red */
+  background-image: linear-gradient(to right, LightPink , red); /* Standard syntax (must be last) */
+  /* the backgroud image have a transition color from light pink to red */
+}
+#grad2 {
+    /* added another gradient called grad1 */
+height: 200px;
+  /* the height of the gradient is 200px tall */
+background-color: red; /* For browsers that do not support gradients */
+/* the background color of the gradient is red */
+background-image: linear-gradient(to right, red , LightPink); /* Standard syntax (must be last) */
+  /* the backgroud image have a transition color from light pink to red */
+}
+    a {
+      /* the first class of text called a */
+      border: 1px solid powderblue;
+      /* the text are surronded by a solid border that is in powderblue */
+      margin: 20px;
+      /* set the margin to be 20 px */
+        color: Turquoise;
+        /* the color of the text is Turquoise */
+        textshadow: 5px 7px limegreen;
+        /* creater the text shadow that is limegreen and size 5px 7px  */
+        font-size: 3em;
+        /* set the font size to be 3em */
+    }
+    h2{
+      color: Beige;
+      /* set the color of the text Beige */
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+      /* created text shadow that is black and dark blue, each has a different size. */
+    }
+    h3{
+      color: AliceBlue;
+      /* set the color to be AliceBlue */
+
+    }
+  /* CSS STOPS here */
+  a:hover {
+    /* this is activates when a is being covered by the mouse, which is hover */
+    color: SeaShell;
+    /* set the color to be seashell */
+    font-size: 5em;
+    /* set the font size to be 5em */
+  /  visibility: hidden;/
+   /* this text could be set to be invisible */
+  }
+h1:hover {
+    /* this is activates when a is being covered by the mouse, which is hover */  transform: rotate(20deg);
+  font-family: "Lucida Console", Monaco, monospace;
+  /* I added a special font called comic sans ms to the text, it is the online font family. */
+}
+h2:hover {
+  transform: rotate(340deg);
+  /* once h2 is getting touched, the text is rotated in 340 degrees. THis is a rotation. */
+  font-family: "Lucida Console", Monaco, monospace;
+  /* I added a special font called comic sans ms to the text, it is the online font family. */
+}
+p:hover {
+  font-family: Impact, Charcoal, sans-serif;
+  /* I added a special font called comic sans ms to the text, it is the online font family. */
+}
+.circle {
+  /* a circle would be created and its properties are below. */
+  height: 50px;
+  /* set the height of the circle to be 50 px */
+  width: 50px;
+  /* set the width of the circle to be 50 px. Since it is a circle, the width and the height of the circle stays the same */
+  background-color: red;
+  /* set the background coloe of the circle to be red */
+  border-radius: 50%;
+  /* set The radius of the borderto be 50 % */
+}
+.square {
+  /* a square would be created and its properties are below. */
+  height: 50px;
+  /* set the height of the square to be 50 px */
+  width: 50px;
+  /* set the width of the square to be 50 px */
+  background-color: pink;
+    /* set the background coloe of the circle to be pink */
+}
+    </style>
+    <!-- the end of style, it is concluded -->
+  </head>
+  <!-- the end of head, it is concluded -->
+<!-- HTML goes here! -->
+
+  <body>
+    <!-- The body of the html code -->
+    <div id="grad2"></div>
+    <marquee direction = "right"><div class="circle"></div></marquee>
+    <!-- marquee is to get the circle object to move. the direction gives where the object circle is moving towards to. also the object that move is set to be the circle. -->
+    <marquee direction = "left"><div class="circle"></div></marquee>
+    <!-- marquee is to get the circle object to move. the direction gives where the object circle is moving towards to. also the object that move is set to be the circle. -->
+
+
+    <marquee direction = "right"><h1>the hand that takes</h1></marquee>
+    <!-- marquee is to get the circle object to move. the direction gives where the object circle is moving towards to. also the object that move is set to be the text. -->
+
+    <h2>this is the hand</h2>
+    <!-- use this is the hand in the type of text h2 -->
+
+    <h3>the hand that <a href="https://ksm492.github.io/web-nyu-idm/here-come-the-planes">takes</a>
+      <!-- use the hand that as a h3 text and create a link https://ksm492.github.io/web-nyu-idm/here-come-the-planes when takes is hitted. -->
+    </h3>
+    <!-- the end of h3 -->
+    <img src ="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/11/931/524/NYU.jpg?ve=1&tl=1">
+    <!-- add a image from the internet with a url link https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/11/931/524/NYU.jpg?ve=1&tl=1 -->
+    <img src ="https://1.bp.blogspot.com/-9m26VwwYpo8/WzCTLMlesyI/AAAAAAAAQ68/t3IQc_Na-_oSaFGcb3G8sOEQHxwSM010QCLcBGAs/s1600/title.gif">
+  <!-- add a image from the internet with a url link https://1.bp.blogspot.com/-9m26VwwYpo8/WzCTLMlesyI/AAAAAAAAQ68/t3IQc_Na-_oSaFGcb3G8sOEQHxwSM010QCLcBGAs/s1600/title.gif -->
+      <marquee direction = "left"><div class="square"></div></marquee>
+      <!-- marquee is to get the circle object to move. the direction gives where the object square is moving towards to. also the object that move is set to be the square. -->
+
+      <marquee direction = "right"><div class="square"></div></marquee>
+      <!-- marquee is to get the circle object to move. the direction gives where the object square is moving towards to. also the object that move is set to be the square. -->
+
+    <div id="grad1"></div>
+    <!-- create a div that is grad1. we already set grad1 up in css codes. -->
+  </body>
+  <!-- the end of the body part -->
+</html>
+<!-- HTML STOPS here! -->
