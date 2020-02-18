@@ -12,11 +12,10 @@ body {
 /* THE END of default helpful basic CSS to include. EDIT the stuff BELOW this line*/
 
 @font-face {
-  /* font-family: 'violet';
+  font-family: 'violet';
   src: url('./fonts/VioletSans-Regular.woff') format('woff');
   font-weight: normal;
-  font-style: normal; */
-
+  font-style: normal;
 }
 
 body {
@@ -24,7 +23,6 @@ body {
   color: yellow;
   text-align: center;
   font-size: 2em;
-  font-family: 'Modak', cursive;
 }
 
 .my-fun-class {
@@ -33,19 +31,6 @@ body {
   display: block;
   margin: auto;
 }
-
-p{
-  font-size: 1em;
-  font-family: 'Montserrat Subrayada', sans-serif;
-}
-/* level 2 select elements by their type selected only the p type. I changed the font of the text and the size too.
- */
-
- p, .my-fun-class{
-   color:forestgreen;
- }
- /* level 9 Comma Combinator Combine, selectors, with... commas! I added the color to bothe p and the class.
-  */
 
 img {
   width: 40%;
