@@ -11,7 +11,7 @@ body {
 
 body {
   background-color: violet;
-  color: LightPink;
+  color: violet;
   text-align: center;
   font-size: 2em;
   font-family: 'Trade Winds', cursive;
@@ -19,7 +19,7 @@ body {
 
 .my-fun-class {
   width: 50%;
-  border: 2px solid limegreen;
+  border: 4px solid limegreen;
   display: block;
   margin: auto;
   font-family: 'Shadows Into Light', cursive;
