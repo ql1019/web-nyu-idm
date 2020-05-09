@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Shadows+Into+Light|Spartan|Trade+Winds&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+
+  width: 100%;
+  padding: 20px;
+}
+h1{
+  color: lightblue;
+}
+
+#myBtn {
+  font-family: 'Shadows Into Light', cursive;
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: lightblue;
+  color: #fff;
+  cursor: pointer;
+}
+#myBtn2 {
+  font-family: 'Shadows Into Light', cursive;
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: lightblue;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: lightblue;
+  color: black;
+}
+#myBtn2:hover {
+  background: lightblue;
+  color: black;
+
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="assets/me.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+
+  <h1>Welcome to Martin's site <button type="button"onclick="document.getElementById('demo').innerHTML = Date()"></button></h1>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+  <a href=""><button id="myBtn2" >photography</button></a>
+  <a href=""><button id="myBtn2" >videography</button></a>
+  <a href=""><button id="myBtn2" >web class</button></a>
+  <p id="demo"></p>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>
